@@ -1,0 +1,115 @@
+*,
+body,
+html{
+    margin: 0;
+    border: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+
+#app{
+    background-color: white;
+    padding: 20px 10px;
+}
+
+.content_box{
+    background: #C3FF17;
+    mix-blend-mode: normal;
+    box-shadow: 5px 5px 0px 5px rgba(0, 0, 0, 0.25);
+    padding: 30px 40px;
+    width: 860.93px;
+    height: 400px;
+    margin: 0 auto;
+    position: relative;
+    overflow: hidden;
+}
+.row{
+    display: flex;
+    
+}
+.left{
+    min-width: 400px;
+}
+header h1{
+    text-align: center;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 42px;
+    padding: 20px;
+}
+.row1 input{
+    width: 260px;
+    height: 60px;
+    background: #FF0404;
+    color: white;
+    font-size: 25px;
+    padding: 5px 10px;
+    margin: 20px 10px;
+}
+.row1 .button_set{
+    width: 80px;
+    height: 60px;
+    background: #000000;
+    color: white;
+    font-size: 25px;
+    margin: 20px 10px;
+}
+.row2 input{
+    width: 260px;
+    height: 60px;
+    background: #FF0404;
+    color: white;
+    font-size: 25px;
+    padding: 5px 10px;
+    margin: 20px 10px;
+}
+.row2 .button_set{
+    width: 80px;
+    height: 60px;
+    background: #000000;
+    color: white;
+    font-size: 25px;
+    margin: 20px 10px;
+}
+.row3 .button_set{
+    width: 70px;
+    height: 60px;
+    background: #000000;
+    color: white;
+    font-size: 25px;
+    margin: 20px 10px;
+}
+.row3 .last_button{
+    width: 80px;
+}
+.right{
+    text-align: center;
+    min-width: 450px;
+    align-content: center;
+}
+.r_box{
+    border-radius: 10px;
+    margin: 30px auto;
+    height: 100px;
+    width: 300px;
+    border: 2px solid red;
+    background: #FF0000;
+}
+.right .r_box h3{
+    padding-top: 18px;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    color: white;
+}
+.line{
+    border-left: 6px solid green;
+    height: 500px;
+    position: absolute;
+    left: 55%;
+    margin-left: -3px;
+    top: 0;
+}
